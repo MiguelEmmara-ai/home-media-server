@@ -1,0 +1,167 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    platform: linux/arm64
+    container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ}
+    ports:
+      - "8096:8096"
+    volumes:
+      - jellyfin_data:/config
+      - ~/media-server-data/media:/media:ro
+    restart: unless-stopped
+
+  nzbget:
+    image: linuxserver/nzbget:latest
+    platform: linux/arm64
+    container_name: nzbget
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ}
+    ports:
+      - "6789:6789"
+    volumes:
+      - nzbget_data:/config
+      - downloads_data:/downloads
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:latest
+    platform: linux/arm64
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - nginx_data:/etc/nginx/certs
+    depends_on:
+      - plex
+      - sonarr
+      - radarr
+      - qbittorrent
+      - prowlarr
+      - jellyseerr
+    restart: unless-stopped
+
+  cloudflare-tunnel:
+    image: cloudflare/cloudflared:latest
+    platform: linux/arm64
+    container_name: cloudflare-tunnel
+    command: tunnel run --protocol quic
+    environment:
+      - TUNNEL_TOKEN=${TUNNEL_TOKEN}
+    networks:
+      - default
+    restart: unless-stopped
+    depends_on:
+      - plex
+
+  plex:
+    image: plexinc/pms-docker:latest
+    platform: linux/arm64
+    container_name: plex
+    environment:
+      - PLEX_CLAIM=${PLEX_CLAIM}
+    ports:
+      - "32400:32400"
+    volumes:
+      - plex_data:/config
+      - ~/media-server-data/media:/media
+    restart: unless-stopped
+
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    platform: linux/arm64
+    container_name: qbittorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ}
+    ports:
+      - "6881:6881/udp"
+      - "8080:8080"
+    volumes:
+      - qbittorrent_data:/config
+      - downloads_data:/downloads
+    restart: unless-stopped
+
+  sonarr:
+    image: linuxserver/sonarr:latest
+    platform: linux/arm64
+    container_name: sonarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ}
+      - URLBASE=/sonarr
+    ports:
+      - "8989:8989"
+    volumes:
+      - sonarr_data:/config
+      - ~/media-server-data/media:/media
+      - downloads_data:/downloads
+    restart: unless-stopped
+
+  radarr:
+    image: linuxserver/radarr:latest
+    platform: linux/arm64
+    container_name: radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ}
+      - URLBASE=/radarr
+    ports:
+      - "7878:7878"
+    volumes:
+      - radarr_data:/config
+      - ~/media-server-data/media:/media
+      - downloads_data:/downloads
+    restart: unless-stopped
+
+  prowlarr:
+    image: linuxserver/prowlarr:latest
+    platform: linux/arm64
+    container_name: prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ}
+      - URLBASE=/prowlarr
+    ports:
+      - "9696:9696"
+    volumes:
+      - prowlarr_data:/config
+    restart: unless-stopped
+
+  jellyseerr:
+    image: ghcr.io/seerr-team/seerr:latest
+    platform: linux/arm64
+    container_name: jellyseerr
+    init: true
+    environment:
+      - LOG_LEVEL=debug
+      - TZ=${TZ}
+      - PORT=5055
+    ports:
+      - "5055:5055"
+    volumes:
+      - jellyseerr_data:/app/config
+    restart: unless-stopped
+
+volumes:
+  plex_data:
+  qbittorrent_data:
+  sonarr_data:
+  radarr_data:
+  prowlarr_data:
+  jellyseerr_data:
+  jellyfin_data:
+  nzbget_data:
+  nginx_data:
+  downloads_data:
