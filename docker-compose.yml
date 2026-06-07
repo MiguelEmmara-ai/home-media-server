@@ -4,8 +4,8 @@ services:
     platform: linux/arm64
     container_name: jellyfin
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=501
+      - PGID=20
       - TZ=${TZ}
     ports:
       - "8096:8096"
@@ -34,10 +34,9 @@ services:
     platform: linux/arm64
     container_name: nzbget
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=501
+      - PGID=20
       - TZ=${TZ}
-      - UMASK=000
       - UMASK_SET=000
     ports:
       - "6789:6789"
@@ -96,8 +95,8 @@ services:
     platform: linux/arm64
     container_name: qbittorrent
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=501
+      - PGID=20
       - TZ=${TZ}
     ports:
       - "6881:6881/udp"
@@ -112,8 +111,8 @@ services:
     platform: linux/arm64
     container_name: sonarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=501
+      - PGID=20
       - TZ=${TZ}
       - URLBASE=/sonarr
     ports:
@@ -129,8 +128,8 @@ services:
     platform: linux/arm64
     container_name: radarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=501
+      - PGID=20
       - TZ=${TZ}
       - URLBASE=/radarr
     ports:
@@ -146,8 +145,8 @@ services:
     platform: linux/arm64
     container_name: prowlarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=501
+      - PGID=20
       - TZ=${TZ}
       - URLBASE=/prowlarr
     ports:
