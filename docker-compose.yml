@@ -169,6 +169,25 @@ services:
       - jellyseerr_data:/app/config
     restart: unless-stopped
 
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    platform: linux/arm64
+    container_name: homepage
+    environment:
+      - HOMEPAGE_VAR_RADARR_KEY=${RADARR_KEY}
+      - HOMEPAGE_VAR_SONARR_KEY=${SONARR_KEY}
+      - HOMEPAGE_VAR_JELLYSEERR_KEY=${JELLYSEERR_KEY}
+      - HOMEPAGE_VAR_JELLYFIN_KEY=${JELLYFIN_KEY}
+      - HOMEPAGE_VAR_PLEX_TOKEN=${PLEX_TOKEN}
+      - HOMEPAGE_VAR_NZBGET_USER=${NZBGET_USER}
+      - HOMEPAGE_VAR_NZBGET_PASS=${NZBGET_PASS}
+      - HOMEPAGE_ALLOWED_HOSTS=home-plex.miguelemmara.me,dashboard.miguelemmara.me,localhost:3000
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./homepage:/app/config
+    restart: unless-stopped
+
 volumes:
   plex_data:
   qbittorrent_data:

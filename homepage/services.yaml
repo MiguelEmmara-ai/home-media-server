@@ -1,0 +1,61 @@
+---
+- Media:
+    - Plex:
+        icon: plex.png
+        href: https://plex.miguelemmara.me/web
+        widget:
+          type: plex
+          url: http://plex:32400
+          key: "{{HOMEPAGE_VAR_PLEX_TOKEN}}"
+    - Jellyfin:
+        icon: jellyfin.png
+        href: https://home-plex.miguelemmara.me/jellyfin
+        widget:
+          type: jellyfin
+          url: http://jellyfin:8096
+          key: "{{HOMEPAGE_VAR_JELLYFIN_KEY}}"
+    - Emby:
+        icon: emby.png
+        href: https://home-plex.miguelemmara.me/emby
+
+- Downloads:
+    - NZBGet:
+        icon: nzbget.png
+        href: https://home-plex.miguelemmara.me/nzbget
+        widget:
+          type: nzbget
+          url: http://nzbget:6789
+          username: "{{HOMEPAGE_VAR_NZBGET_USER}}"
+          password: "{{HOMEPAGE_VAR_NZBGET_PASS}}"
+    - qBittorrent:
+        icon: qbittorrent.png
+        href: https://home-plex.miguelemmara.me/qbittorrent
+        widget:
+          type: qbittorrent
+          url: http://qbittorrent:8080
+
+- Management:
+    - Jellyseerr:
+        icon: jellyseerr.png
+        href: https://home-plex.miguelemmara.me/
+        widget:
+          type: jellyseerr
+          url: http://jellyseerr:5055
+          key: "{{HOMEPAGE_VAR_JELLYSEERR_KEY}}"
+    - Sonarr:
+        icon: sonarr.png
+        href: https://home-plex.miguelemmara.me/sonarr
+        widget:
+          type: sonarr
+          url: http://sonarr:8989/sonarr
+          key: "{{HOMEPAGE_VAR_SONARR_KEY}}"
+    - Radarr:
+        icon: radarr.png
+        href: https://home-plex.miguelemmara.me/radarr
+        widget:
+          type: radarr
+          url: http://radarr:7878/radarr
+          key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
+    - Prowlarr:
+        icon: prowlarr.png
+        href: https://home-plex.miguelemmara.me/prowlarr

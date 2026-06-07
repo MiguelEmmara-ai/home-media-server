@@ -1,0 +1,8 @@
+---
+- Resources:
+    - Disk:
+        disk: /
+    - Memory:
+        memory:
+    - CPU:
+        cpu:
