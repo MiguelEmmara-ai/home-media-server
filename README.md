@@ -66,8 +66,11 @@ Follow the guide to set up each service.
 ## Usage
 
 ```bash
-# Start services
-./control.sh up
+# Start all services
+./start.sh
+
+# Check health of all services
+./check.sh
 
 # Stop services
 ./control.sh down
