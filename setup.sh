@@ -10,7 +10,8 @@ echo "Creating directories..."
 mkdir -p ~/media-server-data/media/tv
 mkdir -p ~/media-server-data/media/movies
 mkdir -p ~/media-server-data/downloads/{completed/Movies,completed/Series,intermediate}
-chmod -R 775 ~/media-server-data
+chown -R 501:20 ~/media-server-data
+chmod -R 2775 ~/media-server-data
 
 # Check if .env is configured
 if ! grep -q "PLEX_CLAIM=[^ ]" .env 2>/dev/null; then
