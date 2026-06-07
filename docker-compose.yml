@@ -181,6 +181,9 @@ services:
       - HOMEPAGE_VAR_PLEX_TOKEN=${PLEX_TOKEN}
       - HOMEPAGE_VAR_NZBGET_USER=${NZBGET_USER}
       - HOMEPAGE_VAR_NZBGET_PASS=${NZBGET_PASS}
+      - HOMEPAGE_VAR_QBIT_USER=${QBIT_USER}
+      - HOMEPAGE_VAR_QBIT_PASS=${QBIT_PASS}
+      - HOMEPAGE_VAR_EMBY_KEY=${EMBY_KEY}
       - HOMEPAGE_ALLOWED_HOSTS=home-plex.miguelemmara.me,dashboard.miguelemmara.me,localhost:3000
     ports:
       - "3000:3000"

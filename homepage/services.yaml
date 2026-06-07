@@ -17,6 +17,10 @@
     - Emby:
         icon: emby.png
         href: https://home-plex.miguelemmara.me/emby
+        widget:
+          type: emby
+          url: http://emby:8096
+          key: "{{HOMEPAGE_VAR_EMBY_KEY}}"
 
 - Downloads:
     - NZBGet:
@@ -33,6 +37,8 @@
         widget:
           type: qbittorrent
           url: http://qbittorrent:8080
+          username: "{{HOMEPAGE_VAR_QBIT_USER}}"
+          password: "{{HOMEPAGE_VAR_QBIT_PASS}}"
 
 - Management:
     - Jellyseerr:
