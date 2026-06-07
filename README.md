@@ -5,11 +5,14 @@ Complete media server stack with zero-hassle remote access via Cloudflare Tunnel
 ## What's Included
 
 - **Plex** - Stream media on any device
+- **Jellyfin** - Free open-source media streaming
+- **Emby** - Media streaming (Smart TV compatible)
 - **Jellyseerr** - Request shows/movies
 - **Sonarr** - Auto-download TV shows
 - **Radarr** - Auto-download movies
-- **Prowlarr** - Manage torrent indexers
-- **qBittorrent** - Torrent client
+- **Prowlarr** - Manage indexers (torrent + usenet)
+- **NZBGet** - Usenet download client
+- **qBittorrent** - Torrent download client
 - **Nginx** - Reverse proxy
 - **Cloudflare Tunnel** - Secure remote access
 

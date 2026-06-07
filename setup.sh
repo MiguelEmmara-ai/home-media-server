@@ -30,6 +30,7 @@ docker-compose up -d
 echo "Creating download directories..."
 sleep 10
 docker exec nzbget mkdir -p /downloads/completed/Series /downloads/completed/Movies /downloads/intermediate
+docker exec nzbget chown -R abc:users /downloads/completed
 
 echo ""
 echo "🚀 Services starting:"
