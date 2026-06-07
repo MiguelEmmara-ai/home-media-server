@@ -21,27 +21,31 @@ Complete media server stack with zero-hassle remote access via Cloudflare Tunnel
 
 ### 1. Prerequisites
 
-- Docker & Docker Compose
+- macOS (Apple Silicon) or Linux
+- Homebrew (macOS): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - Cloudflare account (free)
 - Plex account (free)
 
-### 2. Setup
+### 2. Install (macOS)
 
 ```bash
-# Make scripts executable
-chmod +x setup.sh control.sh
+brew install colima docker docker-compose
+colima start --cpu 4 --memory 8 --disk 50 --vm-type vz --mount-type virtiofs --vz-rosetta
+```
+
+### 3. Setup
+
+```bash
+git clone https://github.com/MiguelEmmara-ai/home-media-server.git
+cd home-media-server
+cp .env.example .env
 
 # Get tokens
-# 1. Plex: https://www.plex.tv/claim (copy token, expires in 4 minutes)
+# 1. Plex: https://www.plex.tv/claim (expires in 4 minutes)
 # 2. Cloudflare Tunnel: https://one.dash.cloudflare.com/connections/tunnels
-#    Run: cloudflared tunnel create media-server
-#    Copy the token from ~/.cloudflared/
 
-# Update .env
+# Fill in your tokens
 nano .env
-# Add:
-#   PLEX_CLAIM=<your-token>
-#   TUNNEL_TOKEN=<your-tunnel-token>
 
 # Run setup
 ./setup.sh
@@ -156,3 +160,26 @@ docker-compose restart plex
 - Join Plex communities for recommendations
 - Add custom indexers to Prowlarr for better results
 - Set up notifications in Sonarr/Radarr (Discord, Telegram, etc.)
+
+## Mac Mini / Always-On Server Setup
+
+If using a Mac Mini (or any Mac) as a dedicated server:
+
+```bash
+# Prevent sleep, disk sleep, and auto-restart after power failure
+sudo pmset -a sleep 0 disksleep 0 autorestart 1
+
+# Prevent sleep even with lid closed (MacBook only)
+sudo pmset -a disablesleep 1
+
+# Enable SSH for remote management
+sudo systemsetup -setremotelogin on
+
+# Auto-mount external drives without login
+sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
+
+# Disable Spotlight on media drive (saves CPU)
+sudo mdutil -i off /Volumes/YourMediaDrive
+```
+
+To undo lid-close prevention: `sudo pmset -a disablesleep 0`
