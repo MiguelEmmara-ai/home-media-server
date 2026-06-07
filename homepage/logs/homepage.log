@@ -427,3 +427,53 @@
 [2026-06-07T01:11:53.891Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://jellyseerr:5055/api/v1/request/count
 [2026-06-07T01:11:58.576Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
 [2026-06-07T01:11:58.919Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=
+[2026-06-07T01:12:03.709Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-07T01:12:03.931Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=
+[2026-06-07T01:12:04.421Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-07T01:12:08.970Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-07T01:12:09.151Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=
+[2026-06-07T01:12:14.100Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=
+[2026-06-07T01:12:14.195Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-07T01:12:14.564Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-07T01:12:19.321Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-07T01:12:29.660Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-07T01:12:30.916Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=
+[2026-06-07T01:12:30.922Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-07T01:12:30.937Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=
+[2026-06-07T01:12:30.962Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-07T01:12:31.213Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-07T01:12:31.602Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-07T01:12:31.603Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=
+[2026-06-07T01:12:31.608Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-07T01:12:31.612Z] error: <httpProxy> [
+  500,
+  Error: socket hang up
+      at ignore-listed frames {
+    code: 'ECONNRESET'
+  }
+]
+[2026-06-07T01:12:31.613Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=
+[2026-06-07T01:12:31.614Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-07T01:12:31.615Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-07T01:12:32.816Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=
+[2026-06-07T01:12:32.818Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=
+[2026-06-07T01:12:32.818Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-07T01:12:32.864Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-07T01:12:32.911Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-07T01:12:37.765Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-07T01:12:38.111Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=
+[2026-06-07T01:12:38.122Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-07T01:12:38.123Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=
+[2026-06-07T01:12:38.138Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-07T01:12:38.140Z] error: <httpProxy> [
+  500,
+  Error: socket hang up
+      at ignore-listed frames {
+    code: 'ECONNRESET'
+  }
+]
+[2026-06-07T01:12:38.162Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-07T01:12:38.566Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=
+[2026-06-07T01:12:48.321Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=
+[2026-06-07T01:12:48.322Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=
+[2026-06-07T01:12:48.324Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.

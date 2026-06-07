@@ -8,6 +8,7 @@ Complete media server stack with zero-hassle remote access via Cloudflare Tunnel
 - **Jellyfin** - Free open-source media streaming
 - **Emby** - Media streaming (Smart TV compatible)
 - **Jellyseerr** - Request shows/movies
+- **Homepage** - Dashboard with live service stats
 - **Sonarr** - Auto-download TV shows
 - **Radarr** - Auto-download movies
 - **Prowlarr** - Manage indexers (torrent + usenet)
