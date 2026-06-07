@@ -90,7 +90,7 @@ services:
     restart: unless-stopped
 
   qbittorrent:
-    image: linuxserver/qbittorrent:5.2.1-ls459
+    image: linuxserver/qbittorrent:5.2.1
     platform: linux/arm64
     container_name: qbittorrent
     environment:
