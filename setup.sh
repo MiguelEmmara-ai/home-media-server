@@ -32,6 +32,11 @@ sleep 10
 docker exec nzbget mkdir -p /downloads/completed/Series /downloads/completed/Movies /downloads/intermediate
 docker exec nzbget chown -R abc:users /downloads/completed
 
+# Wait for services to be ready, then restart nginx
+echo "Waiting for services to initialize..."
+sleep 30
+docker-compose restart nginx
+
 echo ""
 echo "🚀 Services starting:"
 echo "   Jellyseerr (Request UI): http://localhost:5055"
