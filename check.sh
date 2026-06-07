@@ -7,7 +7,7 @@ echo "======================="
 check() {
   local name=$1 url=$2
   code=$(curl -s -o /dev/null -w "%{http_code}" "$url" 2>/dev/null)
-  if [ "$code" = "000" ]; then
+  if [ "$code" = "000" ] || [ "$code" = "502" ] || [ "$code" = "530" ]; then
     echo "  ❌ $name - DOWN"
   else
     echo "  ✅ $name - $code"
