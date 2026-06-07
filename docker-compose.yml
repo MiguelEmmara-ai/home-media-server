@@ -1,6 +1,6 @@
 services:
   jellyfin:
-    image: jellyfin/jellyfin:latest
+    image: jellyfin/jellyfin:10.11.11
     platform: linux/arm64
     container_name: jellyfin
     environment:
@@ -30,7 +30,7 @@ services:
     restart: unless-stopped
 
   nzbget:
-    image: linuxserver/nzbget:latest
+    image: linuxserver/nzbget:v26.1-ls247
     platform: linux/arm64
     container_name: nzbget
     environment:
@@ -45,7 +45,7 @@ services:
     restart: unless-stopped
 
   nginx:
-    image: nginx:latest
+    image: nginx:1.27
     platform: linux/arm64
     container_name: nginx
     ports:
@@ -77,7 +77,7 @@ services:
       - plex
 
   plex:
-    image: plexinc/pms-docker:latest
+    image: plexinc/pms-docker:1.43.2.10687-563d026ea
     platform: linux/arm64
     container_name: plex
     environment:
@@ -90,7 +90,7 @@ services:
     restart: unless-stopped
 
   qbittorrent:
-    image: linuxserver/qbittorrent:latest
+    image: linuxserver/qbittorrent:5.2.1-ls459
     platform: linux/arm64
     container_name: qbittorrent
     environment:
@@ -106,7 +106,7 @@ services:
     restart: unless-stopped
 
   sonarr:
-    image: linuxserver/sonarr:latest
+    image: linuxserver/sonarr:4.0.17
     platform: linux/arm64
     container_name: sonarr
     environment:
@@ -123,7 +123,7 @@ services:
     restart: unless-stopped
 
   radarr:
-    image: linuxserver/radarr:latest
+    image: linuxserver/radarr:6.1.1
     platform: linux/arm64
     container_name: radarr
     environment:
@@ -140,7 +140,7 @@ services:
     restart: unless-stopped
 
   prowlarr:
-    image: linuxserver/prowlarr:latest
+    image: linuxserver/prowlarr:2.3.5
     platform: linux/arm64
     container_name: prowlarr
     environment:
@@ -155,7 +155,7 @@ services:
     restart: unless-stopped
 
   jellyseerr:
-    image: ghcr.io/seerr-team/seerr:latest
+    image: ghcr.io/seerr-team/seerr:v3.3.0
     platform: linux/arm64
     container_name: jellyseerr
     init: true
