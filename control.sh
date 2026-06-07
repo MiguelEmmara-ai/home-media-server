@@ -5,6 +5,9 @@ MEDIA_PATH="$HOME/media-server-data"
 case "${1:-help}" in
     up)
         docker-compose up -d
+        echo "⏳ Waiting for services to initialize..."
+        sleep 30
+        docker-compose restart nginx
         echo "✅ All services started"
         ;;
     down)
