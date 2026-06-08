@@ -1374,3 +1374,118 @@
   }
 ]
 [2026-06-07T05:10:45.161Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-07T19:58:10.326Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-07T21:45:45.148Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-08T00:17:26.052Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T00:17:26.060Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.3:6789
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.3:6789) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.3',
+    port: 6789
+  }
+]
+[2026-06-08T00:17:26.089Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T00:17:26.091Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.5:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.5:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.5',
+    port: 32400
+  }
+]
+[2026-06-08T00:17:26.092Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T00:17:26.094Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T00:17:26.309Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T00:17:26.314Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T00:17:26.426Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T00:17:26.430Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.13:7878
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.13:7878) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.13',
+    port: 7878
+  }
+]
+[2026-06-08T00:17:26.441Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T00:17:26.446Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.13:7878
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.13:7878) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.13',
+    port: 7878
+  }
+]
+[2026-06-08T00:17:26.448Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T00:17:26.452Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.13:7878
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.13:7878) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.13',
+    port: 7878
+  }
+]
+[2026-06-08T00:17:26.668Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-08T00:17:27.283Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T00:17:27.284Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.5:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.5:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.5',
+    port: 32400
+  }
+]
+[2026-06-08T00:17:27.284Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T00:17:27.285Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T00:17:27.285Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T00:17:27.286Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.3:6789
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.3:6789) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.3',
+    port: 6789
+  }
+]
+[2026-06-08T00:17:27.290Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T00:17:27.296Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9

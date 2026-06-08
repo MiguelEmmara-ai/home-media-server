@@ -16,6 +16,8 @@ case "${1:-help}" in
         ;;
     restart)
         docker-compose restart
+        sleep 15
+        docker-compose restart nginx
         echo "🔄 All services restarted"
         ;;
     logs)
