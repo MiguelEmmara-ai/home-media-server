@@ -1489,3 +1489,1466 @@
 ]
 [2026-06-08T00:17:27.290Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
 [2026-06-08T00:17:27.296Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:58:41.820Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-06-08T08:58:41.824Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO api.github.com
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-06-08T08:58:41.879Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T08:58:41.880Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T08:58:41.880Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T08:58:41.881Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T08:58:41.887Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T08:58:41.887Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:58:41.888Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:58:41.901Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T08:58:41.902Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:58:41.902Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:58:41.907Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T08:58:41.907Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:58:41.908Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T08:58:41.908Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:58:41.914Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T08:58:41.914Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T08:58:41.914Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T08:58:41.922Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T08:58:41.922Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T08:58:41.927Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T08:58:41.928Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:58:41.934Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T08:58:41.936Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:58:41.943Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T08:58:41.943Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:58:41.947Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T08:58:41.948Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T08:58:41.948Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T08:58:41.949Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T08:58:41.949Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:58:41.949Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T08:58:41.950Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:58:41.951Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T08:58:41.951Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:58:41.951Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T08:58:41.951Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:12.618Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T08:59:12.619Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T08:59:12.620Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T08:59:12.620Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T08:59:12.624Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T08:59:12.625Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:12.633Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T08:59:12.634Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:59:12.634Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:59:12.639Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T08:59:12.639Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:59:12.639Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:59:12.643Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T08:59:12.643Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:59:12.651Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T08:59:12.651Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T08:59:12.659Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T08:59:12.660Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:12.663Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T08:59:12.663Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:12.670Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T08:59:12.671Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T08:59:12.671Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T08:59:12.681Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T08:59:12.682Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T08:59:12.682Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T08:59:12.685Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T08:59:12.685Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:12.686Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T08:59:12.687Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:12.688Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T08:59:12.688Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:12.689Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T08:59:12.689Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:59:12.689Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T08:59:12.690Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:15.008Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T08:59:15.009Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:59:15.009Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T08:59:15.010Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:59:15.010Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:59:15.011Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T08:59:15.011Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T08:59:15.011Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T08:59:15.011Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T08:59:19.573Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T08:59:19.574Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:59:19.574Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:59:19.579Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T08:59:19.579Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T08:59:19.579Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T08:59:19.580Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T08:59:19.592Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T08:59:19.592Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:59:19.592Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:59:19.596Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T08:59:19.596Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:19.599Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T08:59:19.600Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:59:19.603Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T08:59:19.603Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:59:19.606Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T08:59:19.606Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T08:59:19.607Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T08:59:19.607Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:19.609Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T08:59:19.609Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:19.611Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T08:59:19.611Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T08:59:19.611Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T08:59:19.612Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T08:59:19.613Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:19.613Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T08:59:19.613Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:19.615Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T08:59:19.615Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:19.617Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T08:59:19.617Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T08:59:19.617Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T08:59:19.617Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T08:59:19.617Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:20.341Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T08:59:20.342Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T08:59:20.343Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T08:59:20.344Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T08:59:20.356Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T08:59:20.357Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:20.359Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T08:59:20.360Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:59:20.361Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T08:59:20.365Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T08:59:20.365Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T08:59:20.366Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T08:59:20.366Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T08:59:20.367Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T08:59:20.367Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T08:59:20.368Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:20.369Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T08:59:20.371Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T08:59:20.371Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T08:59:20.372Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T08:59:20.372Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:20.373Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T08:59:20.373Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:59:20.374Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T08:59:20.374Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:20.375Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T08:59:20.375Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:20.384Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T08:59:20.390Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T08:59:20.392Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T08:59:20.393Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T08:59:20.396Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T08:59:20.397Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T08:59:20.400Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T08:59:20.400Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T08:59:20.400Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:01.242Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T09:01:01.244Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T09:01:01.244Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T09:01:01.244Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T09:01:01.248Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T09:01:01.248Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:01.258Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T09:01:01.258Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:01.258Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:01.262Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T09:01:01.263Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:01.263Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:01.268Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T09:01:01.268Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T09:01:01.269Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T09:01:01.269Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:01.279Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T09:01:01.279Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T09:01:01.279Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T09:01:01.279Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T09:01:01.280Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:01.281Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T09:01:01.281Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:01.284Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T09:01:01.285Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:01.286Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T09:01:01.287Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:01.288Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T09:01:01.288Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:01.289Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T09:01:01.289Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:01.290Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T09:01:01.290Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T09:01:01.290Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T09:01:01.291Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T09:01:01.291Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:02.511Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T09:01:02.511Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T09:01:02.511Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T09:01:02.512Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T09:01:02.512Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T09:01:02.512Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T09:01:02.521Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T09:01:02.521Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T09:01:02.521Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T09:01:02.521Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T09:01:02.522Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:02.523Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T09:01:02.523Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:02.523Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:02.524Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T09:01:02.524Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T09:01:02.524Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T09:01:02.524Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T09:01:02.525Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:02.525Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T09:01:02.525Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:02.527Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T09:01:02.528Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:02.530Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T09:01:02.530Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:02.531Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:02.531Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T09:01:02.531Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:02.532Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T09:01:02.532Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:02.532Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T09:01:02.533Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:02.535Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T09:01:02.535Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:02.536Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T09:01:02.536Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:07.456Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T09:01:07.457Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T09:01:07.457Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T09:01:07.458Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T09:01:07.460Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T09:01:07.461Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:07.462Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T09:01:07.463Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:07.463Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:10.147Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T09:01:10.147Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T09:01:10.147Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T09:01:10.148Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T09:01:10.148Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T09:01:10.148Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T09:01:10.151Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T09:01:10.152Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:10.160Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T09:01:10.160Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:10.169Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T09:01:10.169Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T09:01:10.169Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T09:01:10.173Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T09:01:10.174Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:10.182Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T09:01:10.182Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:10.187Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T09:01:10.188Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:10.189Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T09:01:10.190Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:10.190Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:10.206Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T09:01:10.206Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:10.209Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T09:01:10.210Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:10.213Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T09:01:10.213Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T09:01:10.213Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T09:01:10.214Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T09:01:10.214Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T09:01:10.223Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T09:01:10.224Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T09:01:10.225Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T09:01:10.226Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:10.226Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:12.530Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T09:01:12.531Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T09:01:12.531Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T09:01:12.532Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T09:01:12.556Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T09:01:12.556Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:12.559Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T09:01:12.559Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:12.559Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:01:17.606Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T09:01:17.606Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T09:01:17.607Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T09:01:17.607Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T09:01:17.641Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T09:01:17.641Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T09:01:17.642Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T09:01:17.642Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T09:01:17.642Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T09:20:39.161Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙

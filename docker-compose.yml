@@ -11,7 +11,7 @@ services:
       - "8096:8096"
     volumes:
       - jellyfin_data:/config
-      - ~/media-server-data/media:/media:ro
+      - ${MEDIA_PATH}/media:/media:ro
     restart: unless-stopped
 
   emby:
@@ -26,7 +26,7 @@ services:
       - "8920:8096"
     volumes:
       - emby_data:/config
-      - ~/media-server-data/media:/media:ro
+      - ${MEDIA_PATH}/media:/media:ro
     restart: unless-stopped
 
   nzbget:
@@ -41,7 +41,7 @@ services:
       - "6789:6789"
     volumes:
       - nzbget_data:/config
-      - ~/media-server-data/downloads:/downloads
+      - ${MEDIA_PATH}/downloads:/downloads
     restart: unless-stopped
 
   nginx:
@@ -86,7 +86,7 @@ services:
       - "32400:32400"
     volumes:
       - plex_data:/config
-      - ~/media-server-data/media:/media
+      - ${MEDIA_PATH}/media:/media
     restart: unless-stopped
 
   qbittorrent:
@@ -102,7 +102,7 @@ services:
       - "8080:8080"
     volumes:
       - qbittorrent_data:/config
-      - ~/media-server-data/downloads:/downloads
+      - ${MEDIA_PATH}/downloads:/downloads
     restart: unless-stopped
 
   sonarr:
@@ -118,8 +118,8 @@ services:
       - "8989:8989"
     volumes:
       - sonarr_data:/config
-      - ~/media-server-data/media:/media
-      - ~/media-server-data/downloads:/downloads
+      - ${MEDIA_PATH}/media:/media
+      - ${MEDIA_PATH}/downloads:/downloads
     restart: unless-stopped
 
   radarr:
@@ -135,8 +135,8 @@ services:
       - "7878:7878"
     volumes:
       - radarr_data:/config
-      - ~/media-server-data/media:/media
-      - ~/media-server-data/downloads:/downloads
+      - ${MEDIA_PATH}/media:/media
+      - ${MEDIA_PATH}/downloads:/downloads
     restart: unless-stopped
 
   prowlarr:
