@@ -2952,3 +2952,1455 @@
 ]
 [2026-06-08T09:01:17.642Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
 [2026-06-08T09:20:39.161Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-08T10:46:03.764Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-06-08T10:46:03.772Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO api.github.com
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-06-08T10:46:03.816Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T10:46:03.817Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T10:46:03.818Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T10:46:03.821Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T10:46:03.828Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T10:46:03.829Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T10:46:03.829Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T10:46:03.832Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T10:46:03.833Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T10:46:03.839Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:46:03.841Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T10:46:03.842Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:46:03.850Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T10:46:03.850Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T10:46:03.855Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T10:46:03.855Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T10:46:03.855Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T10:46:03.859Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T10:46:03.859Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T10:46:03.862Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T10:46:03.863Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T10:46:03.863Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T10:46:03.870Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T10:46:03.870Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:03.871Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T10:46:03.871Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:03.874Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T10:46:03.874Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:03.875Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T10:46:03.876Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:03.876Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T10:46:03.876Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:46:03.879Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T10:46:03.880Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:46:03.881Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T10:46:03.881Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:46:03.904Z] warn: Failed to update prerender cache for /en Error: EIO: i/o error, open '/app/.next/server/pages/en.html'
+    at ignore-listed frames {
+  errno: -5,
+  code: 'EIO',
+  syscall: 'open',
+  path: '/app/.next/server/pages/en.html'
+}
+[2026-06-08T10:46:04.497Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T10:46:04.497Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T10:46:04.498Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T10:46:04.498Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T10:46:04.500Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T10:46:04.500Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T10:46:04.500Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T10:46:04.501Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T10:46:04.501Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T10:46:04.501Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:46:04.502Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T10:46:04.502Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:46:04.502Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T10:46:04.502Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T10:46:04.503Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T10:46:04.503Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:04.503Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T10:46:04.504Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:04.505Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T10:46:04.505Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T10:46:04.505Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T10:46:04.506Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T10:46:04.507Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:46:04.508Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T10:46:04.508Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:04.508Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T10:46:04.509Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T10:46:04.509Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T10:46:04.510Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:46:04.511Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T10:46:04.511Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:04.516Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T10:46:04.516Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T10:46:04.516Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T10:46:04.517Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T10:46:04.517Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:46:07.946Z] warn: Failed to update prerender cache for /en Error: EIO: i/o error, open '/app/.next/server/pages/en.html'
+    at ignore-listed frames {
+  errno: -5,
+  code: 'EIO',
+  syscall: 'open',
+  path: '/app/.next/server/pages/en.html'
+}
+[2026-06-08T10:46:08.930Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T10:46:08.931Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO nzbget
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T10:46:08.931Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T10:46:08.931Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:46:08.932Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T10:46:08.932Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:08.932Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T10:46:08.933Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyseerr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyseerr'
+  }
+]
+[2026-06-08T10:46:08.933Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T10:46:08.933Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T10:46:08.933Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T10:46:08.934Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T10:46:08.934Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T10:46:08.934Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:08.935Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T10:46:08.935Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO jellyfin
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-06-08T10:46:08.935Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T10:46:08.935Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:46:08.935Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO qbittorrent
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'qbittorrent'
+  }
+]
+[2026-06-08T10:46:08.935Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:46:08.936Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T10:46:08.936Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO plex
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'plex'
+  }
+]
+[2026-06-08T10:46:08.936Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T10:46:08.936Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T10:46:08.936Z] error: <httpProxy> Error calling http://emby:8096/emby/Items/Counts...
+[2026-06-08T10:46:08.937Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T10:46:08.937Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T10:46:08.937Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:08.937Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T10:46:08.938Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO sonarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr'
+  }
+]
+[2026-06-08T10:46:08.938Z] error: <httpProxy> Error calling http://emby:8096/emby/Sessions...
+[2026-06-08T10:46:08.939Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO emby
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'emby'
+  }
+]
+[2026-06-08T10:46:08.941Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T10:46:08.941Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:46:08.941Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T10:46:08.942Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EIO radarr
+      at ignore-listed frames {
+    errno: -5,
+    code: 'EIO',
+    syscall: 'getaddrinfo',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T10:52:18.194Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-08T10:52:18.857Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:52:18.863Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:52:18.864Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:52:24.880Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:52:24.881Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:52:24.881Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:53:10.762Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:53:10.768Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:53:10.768Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:53:10.905Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-08T10:53:11.581Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:53:11.583Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:53:11.583Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:53:19.523Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:53:19.524Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:53:19.524Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:53:20.426Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:53:20.426Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:53:20.426Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:53:30.631Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:53:30.632Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:53:30.632Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:53:42.421Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:53:42.421Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:53:42.421Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:53:43.169Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:53:43.169Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:53:43.169Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:53:59.421Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:53:59.422Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:53:59.422Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:54:01.448Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:54:01.449Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:54:01.450Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:54:22.847Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T10:54:22.848Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.6:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.6:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.6',
+    port: 8080
+  }
+]
+[2026-06-08T10:54:22.848Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T10:56:30.249Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T10:56:36.134Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T10:56:36.760Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T10:56:42.098Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T10:56:54.553Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T11:14:21.777Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-08T11:14:22.255Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-08T11:14:27.388Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-08T11:14:28.689Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-08T11:14:33.903Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-08T14:32:27.157Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T14:32:27.863Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T14:32:29.741Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T14:32:50.693Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T14:33:25.096Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T14:33:27.024Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-08T14:33:32.189Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-08T21:28:20.963Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:28:20.967Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:28:20.967Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:28:20.969Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:28:20.979Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T21:28:20.980Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.12:8096
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.12:8096) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.12',
+    port: 8096
+  }
+]
+[2026-06-08T21:28:20.980Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T21:28:20.981Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T21:28:20.981Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.12:8096
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.12:8096) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.12',
+    port: 8096
+  }
+]
+[2026-06-08T21:28:20.982Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T21:28:21.028Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T21:28:21.033Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:6789
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:6789) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 6789
+  }
+]
+[2026-06-08T21:28:21.046Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T21:28:21.048Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.11:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.11:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.11',
+    port: 8080
+  }
+]
+[2026-06-08T21:28:21.048Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T21:28:21.070Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-08T21:28:21.104Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T21:28:21.105Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.7:5055
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.7:5055) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.7',
+    port: 5055
+  }
+]
+[2026-06-08T21:28:21.105Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T21:28:21.132Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T21:28:21.132Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.4:8989
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.4:8989) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.4',
+    port: 8989
+  }
+]
+[2026-06-08T21:28:21.145Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T21:28:21.146Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.4:8989
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.4:8989) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.4',
+    port: 8989
+  }
+]
+[2026-06-08T21:28:21.149Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T21:28:21.149Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.4:8989
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.4:8989) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.4',
+    port: 8989
+  }
+]
+[2026-06-08T21:28:21.152Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T21:28:21.152Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.4:8989
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.4:8989) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.4',
+    port: 8989
+  }
+]
+[2026-06-08T21:28:21.174Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T21:28:21.176Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.13:7878
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.13:7878) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.13',
+    port: 7878
+  }
+]
+[2026-06-08T21:28:21.213Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T21:28:21.214Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.13:7878
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.13:7878) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.13',
+    port: 7878
+  }
+]
+[2026-06-08T21:28:21.215Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T21:28:21.217Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.13:7878
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.13:7878) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.13',
+    port: 7878
+  }
+]
+[2026-06-08T21:28:21.983Z] error: <httpProxy> Error calling http://qbittorrent:8080/api/v2/torrents/info...
+[2026-06-08T21:28:21.985Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.2:8080
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.2:8080) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.2',
+    port: 8080
+  }
+]
+[2026-06-08T21:28:21.987Z] error: <qbittorrentProxyHandler> HTTP 500 getting data from qBittorrent.  Data: { error: [Object] }
+[2026-06-08T21:28:22.016Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-06-08T21:28:22.016Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.12:8096
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.12:8096) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.12',
+    port: 8096
+  }
+]
+[2026-06-08T21:28:22.020Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T21:28:22.025Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/status...
+[2026-06-08T21:28:22.025Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENODATA radarr
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENODATA',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T21:28:22.037Z] error: <httpProxy> Error calling http://jellyseerr:5055/api/v1/request/count...
+[2026-06-08T21:28:22.040Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.7:5055
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.7:5055) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.7',
+    port: 5055
+  }
+]
+[2026-06-08T21:28:22.041Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-08T21:28:22.043Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-08T21:28:22.044Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENODATA nzbget
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENODATA',
+    syscall: 'queryAaaa',
+    hostname: 'nzbget'
+  }
+]
+[2026-06-08T21:28:22.048Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/queue/details...
+[2026-06-08T21:28:22.049Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENODATA radarr
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENODATA',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T21:28:22.049Z] error: <httpProxy> Error calling http://radarr:7878/radarr/api/v3/movie...
+[2026-06-08T21:28:22.049Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENODATA radarr
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENODATA',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-06-08T21:28:22.050Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-06-08T21:28:22.051Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.12:8096
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.12:8096) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.12',
+    port: 8096
+  }
+]
+[2026-06-08T21:28:22.056Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-08T21:28:22.059Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:28:22.059Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:28:22.059Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:28:22.066Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:28:23.028Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/wanted/missing...
+[2026-06-08T21:28:23.029Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.4:8989
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.4:8989) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.4',
+    port: 8989
+  }
+]
+[2026-06-08T21:28:23.029Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue...
+[2026-06-08T21:28:23.030Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.4:8989
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.4:8989) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.4',
+    port: 8989
+  }
+]
+[2026-06-08T21:28:23.031Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/series...
+[2026-06-08T21:28:23.031Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.4:8989
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.4:8989) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.4',
+    port: 8989
+  }
+]
+[2026-06-08T21:28:23.092Z] error: <httpProxy> Error calling http://sonarr:8989/sonarr/api/v3/queue/details...
+[2026-06-08T21:28:23.092Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.4:8989
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.4:8989) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.4',
+    port: 8989
+  }
+]
+[2026-06-08T21:29:13.255Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T21:29:13.268Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:13.270Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:13.273Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:13.273Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:29:28.297Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:28.298Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:28.298Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:28.298Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:29:28.409Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T21:29:34.055Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:34.056Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:34.056Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:34.056Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:29:38.566Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T21:29:39.216Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:39.216Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:39.216Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:39.217Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:29:42.571Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:42.572Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:42.573Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:42.574Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:29:42.729Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T21:29:44.449Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:44.450Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:44.450Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:44.450Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:29:44.457Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-08T21:29:54.423Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:54.424Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:54.425Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:54.425Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:29:54.900Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:54.903Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:54.903Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:54.904Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:29:54.947Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-08T21:29:59.554Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:29:59.555Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:29:59.555Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:29:59.555Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:30:02.494Z] error: <httpProxy> Error calling http://plex:32400/status/sessions...
+[2026-06-08T21:30:02.495Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.8:32400
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.8:32400) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.8',
+    port: 32400
+  }
+]
+[2026-06-08T21:30:02.495Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-08T21:30:02.495Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:1:30699)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:27764)
+    at async tI (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:101837)
+    at async tM.render (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102552)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:82:5509)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.4_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:934:17)
+[2026-06-08T21:30:02.504Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-09T10:10:57.917Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-09T10:10:58.116Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-09T10:11:07.875Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-09T10:11:07.920Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-09T10:11:24.393Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-09T10:11:24.611Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-09T10:26:15.812Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-09T10:26:15.917Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-09T10:26:16.666Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T06:55:55.167Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-26T06:55:55.248Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-26T06:55:55.249Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-26T06:55:55.362Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-26T06:55:55.375Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T06:55:55.405Z] error: <validateWidgetData> Invalid data for widget 'radarr' endpoint 'queue/details':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,53,57,53,57,53,57,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,52,54,52,98,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,82,97,100,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,69,80,121,57,119,118,43,114,57,110,101,101,73,47,119,71,98,119,84,101,76,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,98,108,54,100,88,80,99,105,117,110,51,75,98,47,53,66,102,68,117,50,101,65,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,112,51,78,70,83,119,99,53,83,53,115,86,106,86,76,57,76,97,52,50,57,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,57,114,88,49,122,99,101,106,76,104,118,54,101,53,104,90,72,107,67,121,100,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,84,86,114,51,43,77,120,71,47,55,82,85,67,90,114,78,98,73,111,108,115,65,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,90,89,80,55,43,51,116,66,43,47,101,109,101,55,77,71,79,108,68,79,76,103,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,82,97,100,97,114,114,32,61,32,123,13,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,13,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,53,54,97,54,53,53,53,57,54,49,49,100,98,102,50,54,100,54,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,86,65,119,106,87,114,97,56,89,66,87,72,56,74,105,121,69,55,74,70,68,65,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,82,97,100,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,13,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,13,10,32,32,32,32,32,32,125,13,10,13,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,13,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,13,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,13,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,13,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,13,10,32,32,32,32,32,32,32,32,125,13,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:55:55.408Z] error: <validateWidgetData> Invalid data for widget 'sonarr' endpoint 'queue':
+Expected:totalRecords
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,83,111,110,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,100,43,105,83,52,120,87,120,110,50,65,50,98,106,85,119,114,69,82,109,83,103,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,115,54,52,70,72,83,120,114,104,49,115,103,90,67,105,66,66,73,86,105,107,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,119,107,115,86,98,80,113,104,75,71,66,50,66,53,80,48,79,48,104,56,73,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,104,97,55,81,105,109,104,52,107,112,119,119,116,70,49,116,47,78,50,55,51,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,48,48,121,76,120,48,118,52,55,110,71,77,111,104,57,70,82,98,68,70,107,103,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,122,71,76,105,72,88,71,79,101,68,50,119,115,108,88,80,118,85,74,103,75,65,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,83,111,110,97,114,114,32,61,32,123,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,57,102,48,52,50,57,49,101,99,54,50,55,49,97,57,101,100,99,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,122,100,47,78,116,118,108,76,56,107,116,98,112,111,66,90,89,116,98,49,89,119,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,83,111,110,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,10,32,32,32,32,32,32,125,10,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:55:55.409Z] error: <validateWidgetData> Invalid data for widget 'radarr' endpoint 'movie':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,53,57,53,57,53,57,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,52,54,52,98,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,82,97,100,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,69,80,121,57,119,118,43,114,57,110,101,101,73,47,119,71,98,119,84,101,76,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,98,108,54,100,88,80,99,105,117,110,51,75,98,47,53,66,102,68,117,50,101,65,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,112,51,78,70,83,119,99,53,83,53,115,86,106,86,76,57,76,97,52,50,57,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,57,114,88,49,122,99,101,106,76,104,118,54,101,53,104,90,72,107,67,121,100,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,84,86,114,51,43,77,120,71,47,55,82,85,67,90,114,78,98,73,111,108,115,65,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,90,89,80,55,43,51,116,66,43,47,101,109,101,55,77,71,79,108,68,79,76,103,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,82,97,100,97,114,114,32,61,32,123,13,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,13,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,53,54,97,54,53,53,53,57,54,49,49,100,98,102,50,54,100,54,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,86,65,119,106,87,114,97,56,89,66,87,72,56,74,105,121,69,55,74,70,68,65,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,82,97,100,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,13,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,13,10,32,32,32,32,32,32,125,13,10,13,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,13,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,13,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,13,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,13,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,13,10,32,32,32,32,32,32,32,32,125,13,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:55:55.413Z] error: <validateWidgetData> Invalid data for widget 'radarr' endpoint 'queue/status':
+Expected:totalCount
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,53,57,53,57,53,57,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,52,54,52,98,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,82,97,100,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,69,80,121,57,119,118,43,114,57,110,101,101,73,47,119,71,98,119,84,101,76,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,98,108,54,100,88,80,99,105,117,110,51,75,98,47,53,66,102,68,117,50,101,65,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,112,51,78,70,83,119,99,53,83,53,115,86,106,86,76,57,76,97,52,50,57,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,57,114,88,49,122,99,101,106,76,104,118,54,101,53,104,90,72,107,67,121,100,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,84,86,114,51,43,77,120,71,47,55,82,85,67,90,114,78,98,73,111,108,115,65,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,90,89,80,55,43,51,116,66,43,47,101,109,101,55,77,71,79,108,68,79,76,103,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,82,97,100,97,114,114,32,61,32,123,13,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,13,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,53,54,97,54,53,53,53,57,54,49,49,100,98,102,50,54,100,54,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,86,65,119,106,87,114,97,56,89,66,87,72,56,74,105,121,69,55,74,70,68,65,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,82,97,100,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,13,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,13,10,32,32,32,32,32,32,125,13,10,13,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,13,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,13,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,13,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,13,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,13,10,32,32,32,32,32,32,32,32,125,13,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:55:55.414Z] error: <validateWidgetData> Invalid data for widget 'sonarr' endpoint 'wanted/missing':
+Expected:totalRecords
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,83,111,110,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,100,43,105,83,52,120,87,120,110,50,65,50,98,106,85,119,114,69,82,109,83,103,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,115,54,52,70,72,83,120,114,104,49,115,103,90,67,105,66,66,73,86,105,107,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,119,107,115,86,98,80,113,104,75,71,66,50,66,53,80,48,79,48,104,56,73,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,104,97,55,81,105,109,104,52,107,112,119,119,116,70,49,116,47,78,50,55,51,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,48,48,121,76,120,48,118,52,55,110,71,77,111,104,57,70,82,98,68,70,107,103,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,122,71,76,105,72,88,71,79,101,68,50,119,115,108,88,80,118,85,74,103,75,65,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,83,111,110,97,114,114,32,61,32,123,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,57,102,48,52,50,57,49,101,99,54,50,55,49,97,57,101,100,99,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,122,100,47,78,116,118,108,76,56,107,116,98,112,111,66,90,89,116,98,49,89,119,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,83,111,110,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,10,32,32,32,32,32,32,125,10,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:55:55.414Z] error: <validateWidgetData> Invalid data for widget 'sonarr' endpoint 'series':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,83,111,110,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,100,43,105,83,52,120,87,120,110,50,65,50,98,106,85,119,114,69,82,109,83,103,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,115,54,52,70,72,83,120,114,104,49,115,103,90,67,105,66,66,73,86,105,107,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,119,107,115,86,98,80,113,104,75,71,66,50,66,53,80,48,79,48,104,56,73,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,104,97,55,81,105,109,104,52,107,112,119,119,116,70,49,116,47,78,50,55,51,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,48,48,121,76,120,48,118,52,55,110,71,77,111,104,57,70,82,98,68,70,107,103,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,122,71,76,105,72,88,71,79,101,68,50,119,115,108,88,80,118,85,74,103,75,65,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,83,111,110,97,114,114,32,61,32,123,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,57,102,48,52,50,57,49,101,99,54,50,55,49,97,57,101,100,99,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,122,100,47,78,116,118,108,76,56,107,116,98,112,111,66,90,89,116,98,49,89,119,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,83,111,110,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,10,32,32,32,32,32,32,125,10,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:55:55.432Z] error: <validateWidgetData> Invalid data for widget 'sonarr' endpoint 'queue/details':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,83,111,110,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,100,43,105,83,52,120,87,120,110,50,65,50,98,106,85,119,114,69,82,109,83,103,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,115,54,52,70,72,83,120,114,104,49,115,103,90,67,105,66,66,73,86,105,107,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,119,107,115,86,98,80,113,104,75,71,66,50,66,53,80,48,79,48,104,56,73,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,104,97,55,81,105,109,104,52,107,112,119,119,116,70,49,116,47,78,50,55,51,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,48,48,121,76,120,48,118,52,55,110,71,77,111,104,57,70,82,98,68,70,107,103,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,122,71,76,105,72,88,71,79,101,68,50,119,115,108,88,80,118,85,74,103,75,65,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,83,111,110,97,114,114,32,61,32,123,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,57,102,48,52,50,57,49,101,99,54,50,55,49,97,57,101,100,99,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,122,100,47,78,116,118,108,76,56,107,116,98,112,111,66,90,89,116,98,49,89,119,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,83,111,110,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,10,32,32,32,32,32,32,125,10,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:56:05.105Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-26T06:56:05.106Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-26T06:56:05.127Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key=b423189cf2f14f50bc55fce8e593cde9
+[2026-06-26T06:56:05.148Z] error: <httpProxy> Error calling http://nzbget:6789/jsonrpc...
+[2026-06-26T06:56:05.151Z] error: <httpProxy> [
+  500,
+  Error: socket hang up
+      at ignore-listed frames {
+    code: 'ECONNRESET'
+  }
+]
+[2026-06-26T06:56:05.160Z] error: <validateWidgetData> Invalid data for widget 'radarr' endpoint 'movie':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,53,57,53,57,53,57,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,52,54,52,98,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,82,97,100,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,69,80,121,57,119,118,43,114,57,110,101,101,73,47,119,71,98,119,84,101,76,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,98,108,54,100,88,80,99,105,117,110,51,75,98,47,53,66,102,68,117,50,101,65,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,112,51,78,70,83,119,99,53,83,53,115,86,106,86,76,57,76,97,52,50,57,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,57,114,88,49,122,99,101,106,76,104,118,54,101,53,104,90,72,107,67,121,100,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,84,86,114,51,43,77,120,71,47,55,82,85,67,90,114,78,98,73,111,108,115,65,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,90,89,80,55,43,51,116,66,43,47,101,109,101,55,77,71,79,108,68,79,76,103,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,82,97,100,97,114,114,32,61,32,123,13,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,13,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,53,54,97,54,53,53,53,57,54,49,49,100,98,102,50,54,100,54,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,86,65,119,106,87,114,97,56,89,66,87,72,56,74,105,121,69,55,74,70,68,65,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,82,97,100,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,13,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,13,10,32,32,32,32,32,32,125,13,10,13,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,13,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,13,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,13,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,13,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,13,10,32,32,32,32,32,32,32,32,125,13,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:56:05.162Z] error: <validateWidgetData> Invalid data for widget 'radarr' endpoint 'queue/status':
+Expected:totalCount
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,53,57,53,57,53,57,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,52,54,52,98,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,82,97,100,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,69,80,121,57,119,118,43,114,57,110,101,101,73,47,119,71,98,119,84,101,76,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,98,108,54,100,88,80,99,105,117,110,51,75,98,47,53,66,102,68,117,50,101,65,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,112,51,78,70,83,119,99,53,83,53,115,86,106,86,76,57,76,97,52,50,57,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,57,114,88,49,122,99,101,106,76,104,118,54,101,53,104,90,72,107,67,121,100,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,84,86,114,51,43,77,120,71,47,55,82,85,67,90,114,78,98,73,111,108,115,65,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,90,89,80,55,43,51,116,66,43,47,101,109,101,55,77,71,79,108,68,79,76,103,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,82,97,100,97,114,114,32,61,32,123,13,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,13,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,53,54,97,54,53,53,53,57,54,49,49,100,98,102,50,54,100,54,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,86,65,119,106,87,114,97,56,89,66,87,72,56,74,105,121,69,55,74,70,68,65,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,82,97,100,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,13,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,13,10,32,32,32,32,32,32,125,13,10,13,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,13,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,13,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,13,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,13,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,13,10,32,32,32,32,32,32,32,32,125,13,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:56:05.173Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://jellyseerr:5055/api/v1/request/count
+[2026-06-26T06:56:05.174Z] error: <validateWidgetData> Invalid data for widget 'sonarr' endpoint 'queue':
+Expected:totalRecords
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,83,111,110,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,100,43,105,83,52,120,87,120,110,50,65,50,98,106,85,119,114,69,82,109,83,103,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,115,54,52,70,72,83,120,114,104,49,115,103,90,67,105,66,66,73,86,105,107,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,119,107,115,86,98,80,113,104,75,71,66,50,66,53,80,48,79,48,104,56,73,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,104,97,55,81,105,109,104,52,107,112,119,119,116,70,49,116,47,78,50,55,51,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,48,48,121,76,120,48,118,52,55,110,71,77,111,104,57,70,82,98,68,70,107,103,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,122,71,76,105,72,88,71,79,101,68,50,119,115,108,88,80,118,85,74,103,75,65,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,83,111,110,97,114,114,32,61,32,123,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,57,102,48,52,50,57,49,101,99,54,50,55,49,97,57,101,100,99,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,122,100,47,78,116,118,108,76,56,107,116,98,112,111,66,90,89,116,98,49,89,119,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,83,111,110,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,10,32,32,32,32,32,32,125,10,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:56:05.184Z] error: <validateWidgetData> Invalid data for widget 'sonarr' endpoint 'series':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,83,111,110,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,100,43,105,83,52,120,87,120,110,50,65,50,98,106,85,119,114,69,82,109,83,103,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,115,54,52,70,72,83,120,114,104,49,115,103,90,67,105,66,66,73,86,105,107,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,119,107,115,86,98,80,113,104,75,71,66,50,66,53,80,48,79,48,104,56,73,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,104,97,55,81,105,109,104,52,107,112,119,119,116,70,49,116,47,78,50,55,51,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,48,48,121,76,120,48,118,52,55,110,71,77,111,104,57,70,82,98,68,70,107,103,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,122,71,76,105,72,88,71,79,101,68,50,119,115,108,88,80,118,85,74,103,75,65,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,83,111,110,97,114,114,32,61,32,123,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,57,102,48,52,50,57,49,101,99,54,50,55,49,97,57,101,100,99,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,122,100,47,78,116,118,108,76,56,107,116,98,112,111,66,90,89,116,98,49,89,119,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,83,111,110,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,10,32,32,32,32,32,32,125,10,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:56:05.186Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T06:56:05.190Z] error: <validateWidgetData> Invalid data for widget 'radarr' endpoint 'queue/details':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,53,57,53,57,53,57,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,52,54,52,98,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,82,97,100,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,69,80,121,57,119,118,43,114,57,110,101,101,73,47,119,71,98,119,84,101,76,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,98,108,54,100,88,80,99,105,117,110,51,75,98,47,53,66,102,68,117,50,101,65,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,112,51,78,70,83,119,99,53,83,53,115,86,106,86,76,57,76,97,52,50,57,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,57,114,88,49,122,99,101,106,76,104,118,54,101,53,104,90,72,107,67,121,100,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,84,86,114,51,43,77,120,71,47,55,82,85,67,90,114,78,98,73,111,108,115,65,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,90,89,80,55,43,51,116,66,43,47,101,109,101,55,77,71,79,108,68,79,76,103,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,82,97,100,97,114,114,32,61,32,123,13,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,13,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,53,54,97,54,53,53,53,57,54,49,49,100,98,102,50,54,100,54,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,86,65,119,106,87,114,97,56,89,66,87,72,56,74,105,121,69,55,74,70,68,65,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,82,97,100,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,13,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,13,10,32,32,32,32,32,32,125,13,10,13,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,13,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,13,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,13,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,13,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,13,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,13,10,32,32,32,32,32,32,32,32,125,13,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:56:05.191Z] error: <validateWidgetData> Invalid data for widget 'sonarr' endpoint 'queue/details':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,83,111,110,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,100,43,105,83,52,120,87,120,110,50,65,50,98,106,85,119,114,69,82,109,83,103,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,115,54,52,70,72,83,120,114,104,49,115,103,90,67,105,66,66,73,86,105,107,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,119,107,115,86,98,80,113,104,75,71,66,50,66,53,80,48,79,48,104,56,73,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,104,97,55,81,105,109,104,52,107,112,119,119,116,70,49,116,47,78,50,55,51,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,48,48,121,76,120,48,118,52,55,110,71,77,111,104,57,70,82,98,68,70,107,103,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,122,71,76,105,72,88,71,79,101,68,50,119,115,108,88,80,118,85,74,103,75,65,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,83,111,110,97,114,114,32,61,32,123,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,57,102,48,52,50,57,49,101,99,54,50,55,49,97,57,101,100,99,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,122,100,47,78,116,118,108,76,56,107,116,98,112,111,66,90,89,116,98,49,89,119,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,83,111,110,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,10,32,32,32,32,32,32,125,10,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:56:05.195Z] error: <validateWidgetData> Invalid data for widget 'sonarr' endpoint 'wanted/missing':
+Expected:totalRecords
+Parse error: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,108,62,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,60,104,101,97,100,62,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,117,116,102,45,56,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,110,97,118,98,117,116,116,111,110,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,35,51,97,51,102,53,49,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,99,97,112,97,98,108,101,34,32,99,111,110,116,101,110,116,61,34,121,101,115,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,97,112,112,108,101,45,109,111,98,105,108,101,45,119,101,98,45,97,112,112,45,115,116,97,116,117,115,45,98,97,114,45,115,116,121,108,101,34,32,99,111,110,116,101,110,116,61,34,98,108,97,99,107,45,116,114,97,110,115,108,117,99,101,110,116,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,102,111,114,109,97,116,45,100,101,116,101,99,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,116,101,108,101,112,104,111,110,101,61,110,111,34,62,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,83,111,110,97,114,114,34,47,62,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,63,104,61,100,43,105,83,52,120,87,120,110,50,65,50,98,106,85,119,114,69,82,109,83,103,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,51,50,120,51,50,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,51,50,120,51,50,46,112,110,103,63,104,61,115,54,52,70,72,83,120,114,104,49,115,103,90,67,105,66,66,73,86,105,107,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,112,110,103,34,32,115,105,122,101,115,61,34,49,54,120,49,54,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,102,97,118,105,99,111,110,45,49,54,120,49,54,46,112,110,103,63,104,61,119,107,115,86,98,80,113,104,75,71,66,50,66,53,80,48,79,48,104,56,73,81,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,109,97,110,105,102,101,115,116,46,106,115,111,110,63,104,61,104,97,55,81,105,109,104,52,107,112,119,119,116,70,49,116,47,78,50,55,51,81,34,32,99,114,111,115,115,111,114,105,103,105,110,61,34,117,115,101,45,99,114,101,100,101,110,116,105,97,108,115,34,47,62,60,108,105,110,107,32,114,101,108,61,34,109,97,115,107,45,105,99,111,110,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,73,109,97,103,101,115,47,73,99,111,110,115,47,115,97,102,97,114,105,45,112,105,110,110,101,100,45,116,97,98,46,115,118,103,63,104,61,48,48,121,76,120,48,118,52,55,110,71,77,111,104,57,70,82,98,68,70,107,103,34,32,99,111,108,111,114,61,34,35,48,48,99,99,102,102,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,104,111,114,116,99,117,116,32,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,105,99,111,34,32,104,114,101,102,61,34,47,102,97,118,105,99,111,110,46,105,99,111,34,47,62,60,109,101,116,97,32,110,97,109,101,61,34,109,115,97,112,112,108,105,99,97,116,105,111,110,45,99,111,110,102,105,103,34,32,99,111,110,116,101,110,116,61,34,47,67,111,110,116,101,110,116,47,98,114,111,119,115,101,114,99,111,110,102,105,103,46,120,109,108,34,47,62,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,70,111,110,116,115,47,102,111,110,116,115,46,99,115,115,63,104,61,122,71,76,105,72,88,71,79,101,68,50,119,115,108,88,80,118,85,74,103,75,65,34,62,60,115,99,114,105,112,116,62,119,105,110,100,111,119,46,83,111,110,97,114,114,32,61,32,123,10,32,32,32,32,32,32,32,32,117,114,108,66,97,115,101,58,32,39,39,10,32,32,32,32,32,32,125,59,60,47,115,99,114,105,112,116,62,60,115,99,114,105,112,116,32,115,114,99,61,34,47,105,110,100,101,120,45,54,57,102,48,52,50,57,49,101,99,54,50,55,49,97,57,101,100,99,97,46,106,115,34,62,60,47,115,99,114,105,112,116,62,60,108,105,110,107,32,104,114,101,102,61,34,47,67,111,110,116,101,110,116,47,115,116,121,108,101,115,46,99,115,115,63,104,61,122,100,47,78,116,118,108,76,56,107,116,98,112,111,66,90,89,116,98,49,89,119,34,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,62,60,116,105,116,108,101,62,83,111,110,97,114,114,60,47,116,105,116,108,101,62,60,115,116,121,108,101,62,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,111,118,101,114,102,108,111,119,58,32,104,105,100,100,101,110,59,10,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,49,48,48,37,59,32,47,42,32,110,101,101,100,101,100,32,102,111,114,32,112,114,111,112,101,114,32,108,97,121,111,117,116,32,42,47,10,32,32,32,32,32,32,125,10,10,32,32,32,32,32,32,64,109,101,100,105,97,32,111,110,108,121,32,115,99,114,101,101,110,32,97,110,100,32,40,109,97,120,45,119,105,100,116,104,58,32,55,54,56,112,120,41,32,123,10,32,32,32,32,32,32,32,32,46,114,111,111,116,32,123,10,32,32,32,32,32,32,32,32,32,32,100,105,115,112,108,97,121,58,32,102,108,101,120,59,10,32,32,32,32,32,32,32,32,32,32,102,108,101,120,45,100,105,114,101,99,116,105,111,110,58,32,99,111,108,117,109,110,59,10,32,32,32,32,32,32,32,32,32,32,109,105,110,45,104,101,105,103,104,116,58,32,49,48,48,37,59,10,32,32,32,32,32,32,32,32,32,32,104,101,105,103,104,116,58,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,32,32,125,60,47,115,116,121,108,101,62,60,47,104,101,97,100,62,60,98,111,100,121,62,60,100,105,118,32,105,100,61,34,112,111,114,116,97,108,45,114,111,111,116,34,62,60,47,100,105,118,62,60,100,105,118,32,105,100,61,34,114,111,111,116,34,32,99,108,97,115,115,61,34,114,111,111,116,34,62,60,47,100,105,118,62,60,47,98,111,100,121,62,60,47,104,116,109,108,62]}
+[2026-06-26T06:58:20.388Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T06:59:05.982Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T06:59:11.429Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T06:59:21.525Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T06:59:33.698Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T06:59:33.948Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T06:59:43.509Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T07:00:50.266Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T07:00:50.935Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T07:00:56.476Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T07:00:57.829Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T07:01:02.099Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T07:01:15.727Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T08:59:15.678Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T08:59:24.229Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T08:59:28.920Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T08:59:33.470Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T08:59:37.679Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T08:59:47.759Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-26T11:17:51.506Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T23:56:18.143Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T23:56:18.903Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T23:56:55.277Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-26T23:57:05.448Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-27T00:50:25.420Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-27T00:54:16.155Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-27T00:55:07.174Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-27T01:23:26.281Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-27T01:23:28.597Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-27T01:24:23.893Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-27T01:30:24.330Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-27T01:30:53.460Z] error: <qbittorrentProxyHandler> HTTP 401 logging in to qBittorrent.  Data: Unauthorized
+[2026-06-27T01:33:41.194Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-27T01:33:47.380Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-27T01:33:52.842Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-27T01:33:57.152Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-27T01:47:01.350Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2026-06-27T02:21:29.965Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
