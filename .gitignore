@@ -1,3 +1,4 @@
 .env
 *.json
 testfile
+homepage/logs/
