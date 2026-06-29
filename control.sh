@@ -15,7 +15,8 @@ case "${1:-help}" in
         echo "⏹️  All services stopped"
         ;;
     restart)
-        docker-compose restart
+        docker-compose down
+        docker-compose up -d
         sleep 15
         docker-compose restart nginx
         echo "🔄 All services restarted"
