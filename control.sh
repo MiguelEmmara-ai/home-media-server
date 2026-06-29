@@ -15,6 +15,11 @@ case "${1:-help}" in
         echo "⏹️  All services stopped"
         ;;
     restart)
+        if [ -d "/Volumes/TRANSCEND/media-server" ]; then
+          export MEDIA_PATH=/Volumes/TRANSCEND/media-server
+        else
+          export MEDIA_PATH=$HOME/media-server-data
+        fi
         docker-compose down
         docker-compose up -d
         sleep 15
